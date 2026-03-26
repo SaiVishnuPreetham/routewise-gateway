@@ -1,3 +1,13 @@
+---
+title: RouteWise Backend
+emoji: 🚀
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 8501
+pinned: false
+---
+
 # 🔀 RouteWise — AI Gateway
 
 A research-grade AI gateway that routes every prompt to the right LLM — and proves it made the right call.
