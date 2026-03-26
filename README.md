@@ -28,7 +28,7 @@ RouteWise is a smart traffic controller that sits between a user and two LLMs. I
 | **Capable model** | `gemini/gemini-2.0-flash` | [Google AI Studio](https://aistudio.google.com) (free tier) | Reasoning, code generation, multi-step tasks, complex analysis |
 
 **Why these two?**
-- **Groq Llama3-8B** delivers <100ms latency for simple tasks — the fastest free inference available. No credit card needed.
+- **Groq Llama-3.1-8B** delivers <100ms latency for simple tasks — the fastest free inference available. No credit card needed.
 - **Gemini 2.0 Flash** handles complex reasoning and code generation with high quality at zero cost. No credit card needed.
 - Both are accessed through **LiteLLM** (`litellm.completion()`), giving us a unified interface, automatic cost tracking, and consistent OpenAI-format responses.
 
