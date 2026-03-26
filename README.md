@@ -184,12 +184,12 @@ python poc.py my_prompts.csv      # CSV with columns: prompt, ground_truth
 ==================================================
   SUMMARY
 ==================================================
-  Overall Accuracy         : 95.0%
-  False Positives (FP)     : 0  (complex → Fast)
-  False Negatives (FN)     : 1  (simple → Capable)
+  Overall Accuracy         : 85.0%
+  False Positives (FP)     : 3  (complex → Fast)
+  False Negatives (FN)     : 0  (simple → Capable)
   Avg Routing Latency      : 0.15 ms
 
-  ✅ PASS — Accuracy 95.0% meets the >75% success bar
+  ✅ PASS — Accuracy 85.0% meets the >75% success bar
 ```
 
 ---
@@ -341,4 +341,6 @@ The current weights (F1=0.20, F2=0.25, etc.) were set by hand. Given a labeled d
 
 ## License
 
-MIT
+Apache 2.0
+
+Made with ❤️ by P. Sai Preetham
