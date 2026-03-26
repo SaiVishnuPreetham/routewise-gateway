@@ -101,7 +101,7 @@ The routing decision adds **< 5ms** overhead per request (measured in PoC).
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/routewise-gateway.git
+git clone https://github.com/SaiVishnuPreetham/routewise-gateway.git
 cd routewise-gateway
 
 # 2. Create virtual environment
