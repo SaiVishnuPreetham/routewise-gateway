@@ -21,13 +21,14 @@ from __future__ import annotations
 import requests
 import pandas as pd
 import streamlit as st
+import os
 from datetime import datetime
 
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
 
-GATEWAY_URL = "http://localhost:8000"
+GATEWAY_URL = os.getenv("GATEWAY_URL", "http://localhost:8000")
 POLL_INTERVAL = 3  # seconds
 
 # ---------------------------------------------------------------------------
