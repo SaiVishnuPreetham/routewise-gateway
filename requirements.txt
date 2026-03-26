@@ -1,0 +1,23 @@
+# ============================================================
+# RouteWise AI Gateway — Python Dependencies
+# ============================================================
+
+# Core server
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-dotenv>=1.0.0
+
+# LLM abstraction layer
+litellm>=1.40.0
+
+# Semantic cache
+sentence-transformers>=2.2.0
+numpy>=1.24.0
+
+# Dashboard
+streamlit>=1.28.0
+pandas>=2.0.0
+requests>=2.31.0
+
+# Cost estimation
+tiktoken>=0.5.0

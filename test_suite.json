@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "prompt": "What is the capital of France?",
+    "ground_truth": "simple"
+  },
+  {
+    "id": 2,
+    "prompt": "Hi there! How are you today?",
+    "ground_truth": "simple"
+  },
+  {
+    "id": 3,
+    "prompt": "Convert 100 degrees Fahrenheit to Celsius.",
+    "ground_truth": "simple"
+  },
+  {
+    "id": 4,
+    "prompt": "What does the word 'ephemeral' mean?",
+    "ground_truth": "simple"
+  },
+  {
+    "id": 5,
+    "prompt": "Who wrote the book '1984'?",
+    "ground_truth": "simple"
+  },
+  {
+    "id": 6,
+    "prompt": "What is the boiling point of water?",
+    "ground_truth": "simple"
+  },
+  {
+    "id": 7,
+    "prompt": "Name three countries in South America.",
+    "ground_truth": "simple"
+  },
+  {
+    "id": 8,
+    "prompt": "What is photosynthesis in one sentence?",
+    "ground_truth": "simple"
+  },
+  {
+    "id": 9,
+    "prompt": "Translate 'good morning' to Spanish.",
+    "ground_truth": "simple"
+  },
+  {
+    "id": 10,
+    "prompt": "What year did World War II end?",
+    "ground_truth": "simple"
+  },
+  {
+    "id": 11,
+    "prompt": "Write a Python function that implements binary search on a sorted list. Include error handling and explain the time complexity step by step.",
+    "ground_truth": "complex"
+  },
+  {
+    "id": 12,
+    "prompt": "Compare the pros and cons of microservices architecture versus a monolithic architecture. Explain why you would choose each for different project sizes and team structures.",
+    "ground_truth": "complex"
+  },
+  {
+    "id": 13,
+    "prompt": "Debug this Python code and explain what's wrong:\n```python\ndef fibonacci(n):\n    if n <= 0:\n        return []\n    fib = [0, 1]\n    for i in range(2, n):\n        fib.append(fib[i-1] + fib[i-2])\n    return fib\n\nprint(fibonacci(1))\n```\nWhy does it return [0, 1] instead of [0]?",
+    "ground_truth": "complex"
+  },
+  {
+    "id": 14,
+    "prompt": "Prove that the square root of 2 is irrational using proof by contradiction. Show every step of the mathematical argument.",
+    "ground_truth": "complex"
+  },
+  {
+    "id": 15,
+    "prompt": "Design a REST API for a library management system. Include endpoints for books, members, and borrowing. Explain the difference between PUT and PATCH in this context, and discuss authentication strategies.",
+    "ground_truth": "complex"
+  },
+  {
+    "id": 16,
+    "prompt": "Implement a LRU cache in Python using a doubly linked list and a hash map. Explain why this combination gives O(1) time complexity for both get and put operations.",
+    "ground_truth": "complex"
+  },
+  {
+    "id": 17,
+    "prompt": "Analyze the time and space complexity of quicksort. Compare it with mergesort, explaining when each algorithm is preferred and why. Include the worst-case scenario for quicksort and how to mitigate it.",
+    "ground_truth": "complex"
+  },
+  {
+    "id": 18,
+    "prompt": "Explain the CAP theorem in distributed systems. Provide real-world examples of systems that sacrifice each of the three properties. Why can't a distributed system guarantee all three simultaneously?",
+    "ground_truth": "complex"
+  },
+  {
+    "id": 19,
+    "prompt": "Refactor this code to follow SOLID principles:\n```python\nclass User:\n    def __init__(self, name, email):\n        self.name = name\n        self.email = email\n    def save_to_db(self):\n        db.execute(f\"INSERT INTO users VALUES ('{self.name}', '{self.email}')\")\n    def send_welcome_email(self):\n        smtp.send(self.email, 'Welcome!')\n    def generate_report(self):\n        return f\"User Report: {self.name} - {self.email}\"\n```\nExplain each principle and how your refactored code addresses it.",
+    "ground_truth": "complex"
+  },
+  {
+    "id": 20,
+    "prompt": "Calculate the probability of drawing exactly 3 red cards from a standard 52-card deck when drawing 5 cards without replacement. Show the formula using combinations and compute the final answer step by step.",
+    "ground_truth": "complex"
+  }
+]
